@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Home | InfernoHost</title>
+        <title>Home | Phyntra Hosting</title>
       </Helmet>
       <Hero />
       <Features />

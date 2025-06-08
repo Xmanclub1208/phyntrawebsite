@@ -4,42 +4,42 @@ import { Quote, Users, Trophy, Gamepad } from "lucide-react";
 
 const TESTIMONIALS = [
   {
-    name: "Sarah Chen",
+    name: "Notreal",
     role: "Minecraft Server Owner",
-    avatar: "https://placehold.co/75",
+    avatar: "https://images-ext-1.discordapp.net/external/z5QyLlSD8QgASkH0NWCIXPM-JCgqLl4YwUoeApoIIBc/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/974782543696125952/8b6d1dc68aa7ab2f6e8353645398843f.png?format=webp&quality=lossless&width=801&height=801",
     content:
-      "Switching to Inferno Host was the best decision. Our server performance improved dramatically and the support team is incredible.",
+      "Switching to Phyntra Hosting was the best decision. Our server performance improved dramatically and the support team is incredible.",
     rating: 5,
     game: "Minecraft",
     stats: {
       players: "500+",
-      since: "6 months",
+      since: "3 weeks",
     },
   },
   {
-    name: "Sarah Chen",
-    role: "Community Manager",
-    avatar: "https://placehold.co/75",
+    name: "Jxked",
+    role: "Minecraft Server Owner",
+    avatar: "https://images-ext-1.discordapp.net/external/-BfWF1R48KfPdVaA08Uo3hyONKvsBuwsR7ro738ocqE/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1268114434706898954/b524c769b8b6fa7876a48b2a743a2468.png?format=webp&quality=lossless&width=240&height=240",
     content:
       "The control panel makes server management a breeze. We can focus on our community instead of technical issues.",
     rating: 5,
-    game: "CS:GO",
+    game: "Minecraft",
     stats: {
-      players: "1000+",
-      since: "1 year",
+      players: "15+",
+      since: "2 weeks",
     },
   },
   {
-    name: "Sarah Chen",
-    role: "Gaming Community Leader",
-    avatar: "https://placehold.co/75",
+    name: "Blackjackchris",
+    role: "Minecraft Server Owner",
+    avatar: "https://images-ext-1.discordapp.net/external/JJMD1EwBlGwP7GFdp6Kn48GPbazWIclFw8jMYuhqaUA/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1189780992345522260/a_0b8ce5897196e58d5ea012eb7234aaa2.gif?width=263&height=263",
     content:
       "Unmatched performance and reliability. Our players noticed the difference immediately after switching.",
     rating: 5,
-    game: "ARK",
+    game: "Minecraft",
     stats: {
-      players: "300+",
-      since: "3 months",
+      players: "90+",
+      since: "3 weeks",
     },
   },
 ];

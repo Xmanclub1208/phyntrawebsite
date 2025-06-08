@@ -3,24 +3,9 @@ import { Globe, Radio, ChevronRight } from "lucide-react";
 
 const LOCATIONS = [
   {
-    region: "Europe",
-    cities: [
-      { name: "Frankfurt, Hetzner", ping: "DDoS Protection Included" },
-      { name: "Helsinki, Hetzner", ping: "DDoS Protection Included" },
-    ],
-  },
-  {
     region: "North America",
     cities: [
-      { name: "Ashburn, OVH", ping: "DDoS Protection Included" },
-      { name: "Beauharnois, OVH", ping: "DDoS Protection Included" },
-    ],
-  },
-  {
-    region: "Asia Pacific",
-    cities: [
-      { name: "Singapore, OVH", ping: "DDoS Protection Included" },
-      { name: "Sydney, OVH", ping: "DDoS Protection Included" },
+      { name: "New York City, MC", ping: "DDoS Protection Included" },
     ],
   },
 ];

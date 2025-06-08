@@ -5,62 +5,32 @@ const games = [
   {
     id: 1,
     title: "Minecraft",
-    icon: "https://placehold.co/100",
+    icon: "https://minecraft.wiki/images/Grass_Block_JE7_BE6.png?424c1",
     category: "Sandbox",
-    minPrice: "14.99",
-    reviews: 2456,
-    active: 100,
-    href: "/minecraft",
+    minPrice: "3.00",
+    reviews: 20,
+    active: 15,
+    href: "https://billing.phyntra.net/products/minecraft",
   },
   {
-    id: 2,
-    title: "CS:GO",
-    icon: "https://placehold.co/100",
-    category: "FPS",
-    minPrice: "12.99",
-    reviews: 1876,
-    active: 10,
-    href: "https://example.com",
-  },
-  {
-    id: 3,
-    title: "Garry's Mod",
-    icon: "https://placehold.co/100",
+    id: 1,
+    title: "Rust",
+    icon: "https://pbs.twimg.com/profile_images/1339528561129041920/ZmFfbF-T_400x400.png",
     category: "Sandbox",
-    minPrice: "9.99",
-    reviews: 1220,
-    active: 10,
-    href: "https://example.com",
+    minPrice: "3.00",
+    reviews: 0,
+    active: 0,
+    href: "https://Sorry we don't offer that yet!",
   },
   {
-    id: 4,
-    title: "ARK: SE",
-    icon: "https://placehold.co/100",
-    category: "Survival",
-    minPrice: "19.99",
-    reviews: 1543,
-    active: 10,
-    href: "https://example.com",
-  },
-  {
-    id: 5,
-    title: "Palworld",
-    icon: "https://placehold.co/100",
-    category: "Adventure",
-    minPrice: "16.99",
-    reviews: 980,
-    active: 10,
-    href: "https://example.com",
-  },
-  {
-    id: 6,
-    title: "Valheim",
-    icon: "https://placehold.co/100",
-    category: "Survival",
-    minPrice: "13.99",
-    reviews: 2110,
-    active: 10,
-    href: "https://example.com",
+    id: 1,
+    title: "Teamspeak",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/e/ec/TeamSpeak_logo_renovado.png",
+    category: "Voice",
+    minPrice: "3.00",
+    reviews: 0,
+    active: 0,
+    href: "https://Sorry we don't offer that yet!",
   },
 ];
 
@@ -71,10 +41,11 @@ const categories = [
   "Survival",
   "Strategy",
   "RPG",
+  "Voice",
 ];
 
 const filters = [
-  { name: "Mod Support", count: 45 },
+  { name: "Plugin Support", count: 45 },
   { name: "Anti-Cheat", count: 28 },
   { name: "Cross-Play", count: 15 },
   { name: "Custom Domain", count: 52 },
@@ -125,7 +96,7 @@ const HeroSection = () => (
 
           <p className="text-gray-400 text-lg mb-6">
             Browse our collection of optimized game servers. From Minecraft to
-            CS:GO, we've got your favorite games covered with high-performance
+            Rust, we've got your favorite games covered with high-performance
             hosting.
           </p>
 
@@ -299,7 +270,7 @@ const GamesPage = () => {
             <p className="text-gray-500 text-sm">
               Can't find your game?{" "}
               <a
-                href="/request"
+                href="https://discord.gg/WfDE4vEaQS"
                 className="text-red-500 hover:text-red-400 transition-colors duration-300"
               >
                 Request a listing

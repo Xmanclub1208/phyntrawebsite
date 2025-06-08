@@ -12,20 +12,8 @@ const GAMES = [
   {
     id: 1,
     title: "Minecraft",
-    icon: "https://placehold.co/75",
-    slug: "minecraft",
-  },
-  {
-    id: 2,
-    title: "CS:GO",
-    icon: "https://placehold.co/75",
-    slug: "cs-go",
-  },
-  {
-    id: 3,
-    title: "Palworld",
-    icon: "https://placehold.co/75",
-    slug: "palworld",
+    icon: "https://minecraft.wiki/images/Grass_Block_JE7_BE6.png?424c1",
+    slug: "games",
   },
 ];
 
@@ -33,7 +21,7 @@ const SERVER_STATS = [
   {
     icon: Server,
     label: "Server Uptime",
-    value: "99.99%",
+    value: "99.5%",
     description: "Industry-leading reliability",
   },
   {
@@ -44,9 +32,9 @@ const SERVER_STATS = [
   },
   {
     icon: Globe,
-    label: "Global Locations",
-    value: "25+",
-    description: "Worldwide coverage",
+    label: "Location",
+    value: "New York City",
+    description: "Maximum coverage",
   },
   {
     icon: Zap,
@@ -238,7 +226,7 @@ const HeroContent = () => {
 
           <p className="text-xl text-gray-400 mb-8 max-w-2xl leading-relaxed">
             Experience next-generation game server hosting with instant
-            deployment, military-grade protection, and performance that defies
+            deployment, enterprise-grade protection, and performance that defies
             expectations
           </p>
 
@@ -247,8 +235,8 @@ const HeroContent = () => {
               Browse Games
               <Gamepad2 className="w-5 h-5" />
             </GlowingButton>
-            <GlowingButton primary={false} href="/dedicated">
-              Dedicated Servers
+            <GlowingButton primary={false} href="https:panel.phyntra.net">
+              Game Panel
               <ChevronRight className="w-5 h-5" />
             </GlowingButton>
           </div>

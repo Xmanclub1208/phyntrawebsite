@@ -24,7 +24,7 @@ const LegalPage = () => {
   ];
 
   const termsContent = {
-    lastUpdated: "November 25, 2024",
+    lastUpdated: "June 7, 2025",
     sections: [
       {
         title: "1. Agreement to Terms",
@@ -60,7 +60,7 @@ const LegalPage = () => {
   };
 
   const privacyContent = {
-    lastUpdated: "November 25, 2024",
+    lastUpdated: "June 7, 2025",
     sections: [
       {
         title: "1. Data Collection",
@@ -96,7 +96,7 @@ const LegalPage = () => {
   };
 
   const aupContent = {
-    lastUpdated: "November 25, 2024",
+    lastUpdated: "June 7, 2025",
     sections: [
       {
         title: "1. Prohibited Activities",
@@ -153,7 +153,7 @@ const LegalPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <Helmet>
-        <title>Legal Policies | InfernoHost</title>
+        <title>Legal Policies | Phyntra Hosting</title>
       </Helmet>
       {/* Header */}
       <div className="relative pt-24 pb-16">
@@ -224,7 +224,7 @@ const LegalPage = () => {
                     href="mailto:legal@infernohost.com"
                     className="text-red-500 hover:text-red-400 transition-colors duration-300"
                   >
-                    legal@infernohost.com
+                    https://discord.gg/WfDE4vEaQS
                   </a>
                 </p>
               </div>

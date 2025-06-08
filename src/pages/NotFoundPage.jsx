@@ -9,7 +9,7 @@ const NotFoundPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black p-4">
       <Helmet>
-        <title>Oh No! | Inferno Host</title>
+        <title>Oh No! | Phyntra Hosting</title>
       </Helmet>
       <div className="text-center max-w-lg">
         {/* Logo Container */}
@@ -30,7 +30,7 @@ const NotFoundPage = () => {
             className="font-bold text-2xl bg-clip-text text-transparent 
               bg-gradient-to-r from-red-500 to-red-600"
           >
-            INFERNO HOST
+            PHYNTRA HOSTING
           </span>
         </div>
         <h1

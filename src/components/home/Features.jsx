@@ -15,10 +15,10 @@ import {
 const FEATURES = Object.freeze([
   {
     icon: Cpu,
-    title: "AMD EPYC™ Processors",
+    title: "Intel Xeon™ Processors",
     description:
       "Latest generation processors for maximum performance and reliability.",
-    specs: ["Up to 4.1 GHz", "128 Threads", "PCIe 4.0 Support"],
+    specs: ["Up to 3.7 GHz", "8 Threads", "4 Cores"],
   },
   {
     icon: Shield,
@@ -32,7 +32,7 @@ const FEATURES = Object.freeze([
     title: "NVMe SSD Storage",
     description:
       "Lightning-fast storage for instant load times and smooth gameplay.",
-    specs: ["7000MB/s Read", "Sub-ms Latency", "RAID 10 Config"],
+    specs: ["560MB/s Read", "Sub-ms Latency", "560MB/s Write"],
   },
   {
     icon: Clock,
@@ -45,26 +45,26 @@ const FEATURES = Object.freeze([
     icon: Cloud,
     title: "Global Network",
     description:
-      "Multiple locations worldwide for optimal latency and performance.",
-    specs: ["10Gbps Uplink", "Anti-lag System", "Smart Routing"],
+      "Strategic location for optimal latency and performance.",
+    specs: ["1Gbps Uplink", "Anti-lag System", "Smart Routing"],
   },
   {
     icon: Terminal,
-    title: "Full Root Access",
-    description: "Complete control over your server with root/admin access.",
-    specs: ["SSH Access", "Custom Modules", "API Support"],
+    title: "User Friendly Panel",
+    description: "Complete control over your server with a user friendly panel.",
+    specs: ["Clean Layout", "Custom Modules", "SSH Support"],
   },
   {
     icon: Wrench,
-    title: "Mod Support",
-    description: "Easy installation of mods and plugins with one-click setup.",
-    specs: ["Mod Manager", "Auto-Updates", "Version Control"],
+    title: "Plugin Support",
+    description: "Easy installation of plugins with one-click setup.",
+    specs: ["Plugin Manager", "Easy Updates", "Version Control"],
   },
   {
     icon: HeartPulse,
     title: "24/7 Support",
     description: "Expert support team available around the clock to help you.",
-    specs: ["< 30min Response", "Live Chat", "Knowledge Base"],
+    specs: ["< 30min Response", "Discord Support Server", "Billing Panel Tickets"],
   },
 ]);
 
@@ -166,7 +166,7 @@ const FeatureCard = memo(({ feature, index }) => {
 const SectionHeader = memo(() => (
   <div className="text-center mb-16 max-w-4xl mx-auto">
     <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-red-500">
-      Why Choose Inferno Host
+      Why Choose Phyntra Hosting
     </h2>
     <p className="text-lg text-gray-400">
       Experience unmatched performance and reliability with our premium hosting

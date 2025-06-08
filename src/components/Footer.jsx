@@ -14,17 +14,13 @@ const FOOTER_LINKS = [
     title: "Products",
     links: [
       { name: "Game Servers", href: "/games" },
-      { name: "Web Hosting", href: "/webhosting" },
-      { name: "Dedicated Servers", href: "/dedicated" },
-      { name: "VPS Hosting", href: "/vps" },
     ],
   },
   {
     title: "Support",
     links: [
-      { name: "Support Center", href: "/support" },
-      { name: "Documentation", href: "/docs" },
-      { name: "Status", href: "/status" },
+      { name: "Support Center", href: "https://discord.gg/WfDE4vEaQS" },
+      { name: "Status", href: "https://status.phyntra.net" },
     ],
   },
   {
@@ -32,25 +28,13 @@ const FOOTER_LINKS = [
     links: [
       { name: "About", href: "/about" },
       { name: "Hardware", href: "/hardware" },
-      { name: "Careers", href: "/careers" },
-      { name: "Contact", href: "/contact" },
     ],
   },
 ];
 
 const SOCIAL_LINKS = [
   {
-    href: "https://github.com/inferno-host",
-    icon: Github,
-    label: "GitHub",
-  },
-  {
-    href: "https://twitter.com/inferno_host",
-    icon: Twitter,
-    label: "Twitter",
-  },
-  {
-    href: "https://discord.gg/inferno-host",
+    href: "https://discord.gg/WfDE4vEaQS",
     icon: FaDiscord,
     isFA: true,
     label: "Discord",
@@ -155,7 +139,7 @@ function Footer() {
             <Link
               to="/"
               className="inline-flex items-center gap-3 group mb-8"
-              aria-label="Inferno Host"
+              aria-label="XTA LLC"
             >
               <div className="relative">
                 <div
@@ -177,7 +161,7 @@ function Footer() {
                 className="font-bold text-2xl tracking-tight bg-clip-text text-transparent 
                 bg-gradient-to-r from-red-500 to-red-600"
               >
-                INFERNO HOST
+                PHYNTRA HOSTING
               </span>
             </Link>
             <p className="text-gray-400 mb-8 leading-relaxed">
@@ -202,7 +186,7 @@ function Footer() {
         <div className="pt-8 border-t border-red-900/30">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
             <p className="text-gray-500 text-sm text-center lg:text-left">
-              © {currentYear} Inferno Host. All rights reserved.
+              © {currentYear} XTA, LLC. All rights reserved.
             </p>
             <nav
               className="flex flex-wrap justify-center gap-8"

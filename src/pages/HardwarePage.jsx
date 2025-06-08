@@ -18,43 +18,13 @@ import { Helmet } from "react-helmet";
 
 const dataCenters = [
   {
-    location: "Frankfurt, Germany",
-    provider: "Hetzner",
-    features: {
-      network: "1Gbps/10Gbps Unmetered",
-      ddos: "Automatic DDoS Protection",
-      uplink: "Multi-Carrier (Level3, Telia)",
-      tier: "Tier 4 Facility",
-    },
-  },
-  {
-    location: "Helsinki, Finland",
-    provider: "Hetzner",
-    features: {
-      network: "1Gbps/10Gbps Unmetered",
-      ddos: "Automatic DDoS Protection",
-      uplink: "Multi-Carrier Network",
-      tier: "Tier 4 Facility",
-    },
-  },
-  {
     location: "Ashburn, USA",
     provider: "OVH",
     features: {
-      network: "1Gbps/10Gbps Unmetered",
-      ddos: "VAC DDoS Protection",
+      network: "1Gbps/1Gbps Unmetered",
+      ddos: "DDoS Protection",
       uplink: "Tier 1 Carriers",
       tier: "Tier 4 Facility",
-    },
-  },
-  {
-    location: "Singapore",
-    provider: "OVH",
-    features: {
-      network: "1Gbps/10Gbps Unmetered",
-      ddos: "VAC DDoS Protection",
-      uplink: "Major APAC Carriers",
-      tier: "Tier 3 Facility",
     },
   },
 ];
@@ -63,7 +33,7 @@ const HardwarePage = () => {
   return (
     <div className="min-h-screen bg-black">
       <Helmet>
-        <title>Hardware | InfernoHost</title>
+        <title>Hardware | Phyntra Hosting</title>
       </Helmet>
       {/* Hero Section */}
       <div className="relative pt-24 pb-16">
@@ -101,14 +71,14 @@ const HardwarePage = () => {
             <div className="flex-1">
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: Cpu, label: "Latest Gen CPUs", value: "AMD & Intel" },
+                  { icon: Cpu, label: "Latest Gen CPUs", value: "From Intel" },
                   { icon: HardDrive, label: "Storage", value: "NVMe SSD" },
                   {
                     icon: Shield,
                     label: "Protection",
                     value: "DDoS Mitigation",
                   },
-                  { icon: Wifi, label: "Network", value: "Up to 10Gbps" },
+                  { icon: Wifi, label: "Network", value: "Up to 1Gbps" },
                 ].map((stat, index) => (
                   <div
                     key={index}
@@ -150,32 +120,10 @@ const HardwarePage = () => {
               description:
                 "Optimized for maximum performance in gaming workloads",
               specs: [
-                "AMD Ryzen 9 5950X / Intel i9-13900K",
-                "Up to 128GB DDR4 RAM",
+                "Intel(R) Xeon(R) CPU E3-1240 v6 @ 3.70GHz",
+                "Up to 32GB DDR4 RAM",
                 "NVMe SSD Storage",
                 "1Gbps Unmetered Network",
-              ],
-            },
-            {
-              icon: Server,
-              title: "Dedicated Hardware",
-              description: "Raw power for demanding applications",
-              specs: [
-                "AMD EPYC 7003 / Intel Xeon",
-                "Up to 512GB ECC DDR4",
-                "Customizable Storage",
-                "Up to 10Gbps Network",
-              ],
-            },
-            {
-              icon: Cloud,
-              title: "Cloud Infrastructure",
-              description: "Flexible virtual environments for any workload",
-              specs: [
-                "Dedicated vCPU Cores",
-                "Guaranteed RAM",
-                "High-Performance Storage",
-                "Enterprise Network",
               ],
             },
           ].map((platform, index) => (
@@ -304,12 +252,6 @@ const HardwarePage = () => {
               className="px-6 py-3 rounded-lg bg-red-500 hover:bg-red-600 text-white font-medium transition-colors duration-300"
             >
               View Game Servers
-            </a>
-            <a
-              href="/dedicated"
-              className="px-6 py-3 rounded-lg bg-black hover:bg-gray-900 text-white font-medium border hover:bg-transparent border-red-500/30 hover:border-red-500/50 transition-colors duration-300"
-            >
-              Dedicated Servers
             </a>
           </div>
         </div>

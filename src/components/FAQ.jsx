@@ -26,42 +26,42 @@ const FAQ_ITEMS = [
     answer:
       "Servers are deployed instantly after purchase. You'll receive login credentials within minutes of completing your order. Our automated provisioning system ensures your server is ready to use with all selected features and configurations.",
     category: "technical",
-    relatedLinks: ["Server Deployment Guide", "Getting Started"],
+    relatedLinks: ["Discord Support"],
   },
   {
     question: "Do you offer DDoS protection?",
     answer:
       "Yes, all our servers include enterprise-grade DDoS protection at no additional cost. Our protection system can mitigate attacks up to 1Tbps with automatic detection and filtering. We utilize a multi-layered approach combining hardware and software solutions for comprehensive protection.",
     category: "technical",
-    relatedLinks: ["Security Features", "Network Infrastructure"],
+    relatedLinks: ["Discord Support"],
   },
   {
     question: "Can I modify server settings and add mods?",
     answer:
-      "Absolutely! You have full access to configure your server settings and install mods through our control panel. We support one-click mod installations and custom configurations. Our system maintains automatic backups of your configurations for safety.",
+      "Absolutely! You have full access to configure your server settings and install mods through our control panel. We support one-click plugin installations and custom configurations. Our system maintains automatic backups of your configurations for safety.",
     category: "technical",
-    relatedLinks: ["Mod Installation Guide", "Server Configuration"],
+    relatedLinks: ["Discord Support"],
   },
   {
     question: "What payment methods do you accept?",
     answer:
-      "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and various cryptocurrency payments including Bitcoin and Ethereum for maximum flexibility. All payments are processed securely through encrypted channels with 3D-secure verification where applicable.",
+      "We accept all major credit cards (Visa, MasterCard, American Express) and PayPal for maximum flexibility. All payments are processed securely through encrypted channels with 3D-secure verification where applicable.",
     category: "billing",
-    relatedLinks: ["Payment Methods", "Billing FAQ"],
+    relatedLinks: ["Discord Support"],
   },
   {
     question: "Do you offer refunds?",
     answer:
       "Yes, we offer a 24-hour money-back guarantee if you're not satisfied with our service. No questions asked, simply contact our support team. If you cancel within the first 24 hours of your purchase, we'll process a full refund to your original payment method.",
     category: "billing",
-    relatedLinks: ["Refund Policy", "Terms of Service"],
+    relatedLinks: ["Discord Support"],
   },
   {
     question: "How does the support system work?",
     answer:
-      "24/7 support is available through our ticket system, live chat, and Discord community. Premium plans get priority support with guaranteed response times under 30 minutes. Our support team is composed of experienced server administrators who can assist with technical issues, configurations, and general inquiries.",
+      "24/7 support is available through our Billing Panel ticket system and Discord Support Server. Our support team is composed of experienced server administrators who can assist with technical issues, configurations, and general inquiries.",
     category: "support",
-    relatedLinks: ["Support Portal", "Contact Us"],
+    relatedLinks: ["Discord Support"],
   },
 ];
 
@@ -101,7 +101,7 @@ const RelatedLinks = memo(({ links }) => (
     {links.map((link, i) => (
       <a
         key={i}
-        href="#"
+        href="https://discord.gg/WfDE4vEaQS"
         className="flex items-center gap-2 text-sm text-red-500 hover:text-red-400 transition-colors duration-150"
       >
         <ChevronRight className="w-3 h-3" />
@@ -256,7 +256,7 @@ const FAQ = () => {
             rounded-lg text-white hover:from-red-500 hover:to-red-600 transition-colors duration-150"
           >
             <MessageCircle className="w-5 h-5" />
-            Contact Support
+            <a href={"https://discord.gg/WfDE4vEaQS"}> Contact Support</a>
           </button>
         </div>
       </div>

@@ -3,17 +3,17 @@ import { Server, Users, Trophy } from "lucide-react";
 import { Helmet } from "react-helmet";
 
 const stats = [
-  { value: "50,000+", label: "Active Players" },
-  { value: "99.9%", label: "Uptime" },
+  { value: "600+", label: "Active Players" },
+  { value: "99.5%", label: "Uptime" },
   { value: "24/7", label: "Support" },
-  { value: "150+", label: "Locations" },
+  { value: "1", label: "Location" },
 ];
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <Helmet>
-        <title>About Us | InfernoHost</title>
+        <title>About Us | Phyntra Hosting</title>
       </Helmet>
       {/* Hero Section */}
       <div className="relative pt-24 pb-16">
@@ -27,7 +27,7 @@ const AboutPage = () => {
             <h1 className="text-4xl text-white font-bold mb-6">
               Powering Gaming Communities{" "}
               <span className="bg-clip-text text-transparent bg-red-500">
-                Since 2018
+                Since 2025
               </span>
             </h1>
 
@@ -129,7 +129,7 @@ const AboutPage = () => {
       <div className="container max-w-screen-xl mx-auto px-4 py-8">
         <div className="text-center pb-16">
           <a
-            href="/contact"
+            href="https://discord.gg/WfDE4vEaQS"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-red-500 hover:bg-red-600 text-white font-medium transition-colors duration-300 mb-8"
           >
             Join Our Journey
@@ -138,7 +138,7 @@ const AboutPage = () => {
           <p className="text-gray-500 text-sm">
             Want to learn more?{" "}
             <a
-              href="/contact"
+              href="https://discord.gg/WfDE4vEaQS"
               className="text-red-500 hover:text-red-400 transition-colors duration-300"
             >
               Get in touch with our team

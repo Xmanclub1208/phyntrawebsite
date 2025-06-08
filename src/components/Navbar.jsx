@@ -5,10 +5,7 @@ import { Flame, Menu, X } from "lucide-react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/games", label: "Games" },
-  { href: "/webhosting", label: "Web" },
-  { href: "/dedicated", label: "Dedicated" },
-  { href: "/vps", label: "VPS" },
-  { href: "/support", label: "Support" },
+  { href: "https://discord.gg/WfDE4vEaQS", label: "Support" },
 ];
 
 export default function Navbar() {
@@ -65,7 +62,7 @@ export default function Navbar() {
                     bg-black/20 border border-red-500/20 group-hover:border-red-500/40 duration-300"
                   >
                     <img
-                      src="https://placehold.co/75"
+                      src="https://images-ext-1.discordapp.net/external/qiOzzaB380XJPl7BodELiO5A1w2mCS_FK-fuutXyxzI/https/i.postimg.cc/FzwHGZ8s/redphyntra.png?format=webp&quality=lossless&width=549&height=561"
                       className="w-auto h-auto text-red-500 group-hover:scale-110 duration-300"
                       alt="logo"
                     />
@@ -75,7 +72,7 @@ export default function Navbar() {
                   className="font-bold text-xl bg-clip-text text-transparent
                   bg-gradient-to-r from-red-500 to-red-600"
                 >
-                  INFERNO HOST
+                  PHYNTRA HOSTING
                 </span>
               </Link>
 
@@ -95,7 +92,7 @@ export default function Navbar() {
                   </NavLink>
                 ))}
                 <Link
-                  to="/login"
+                  to="https://billing.phyntra.net/login"
                   className="px-6 py-2 text-sm font-medium text-white rounded-lg
                     bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500
                     hover:to-red-600 border border-red-500/30 hover:border-red-500/50
