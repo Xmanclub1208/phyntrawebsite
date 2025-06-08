@@ -20,7 +20,7 @@ const games = [
     minPrice: "3.00",
     reviews: 0,
     active: 0,
-    href: "https://Sorry we don't offer that yet!",
+    href: "/coming-soon",
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ const games = [
     minPrice: "3.00",
     reviews: 0,
     active: 0,
-    href: "https://Sorry we don't offer that yet!",
+    href: "/coming-soon",
   },
 ];
 
@@ -216,7 +216,7 @@ const GamesPage = () => {
     <div className="min-h-screen bg-black">
       <div className="relative">
         <Helmet>
-          <title>Games | Inferno Host</title>
+          <title>Games | Phyntra Hosting</title>
         </Helmet>
         <HeroSection />
 

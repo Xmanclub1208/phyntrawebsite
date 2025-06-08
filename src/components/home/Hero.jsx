@@ -15,6 +15,12 @@ const GAMES = [
     icon: "https://minecraft.wiki/images/Grass_Block_JE7_BE6.png?424c1",
     slug: "games",
   },
+  {
+    id: 2,
+    title: "Rust",
+    icon: "https://pbs.twimg.com/profile_images/1339528561129041920/ZmFfbF-T_400x400.png",
+    slug: "games",
+  },
 ];
 
 const SERVER_STATS = [
@@ -235,7 +241,7 @@ const HeroContent = () => {
               Browse Games
               <Gamepad2 className="w-5 h-5" />
             </GlowingButton>
-            <GlowingButton primary={false} href="https:panel.phyntra.net">
+            <GlowingButton primary={false} href="https://panel.phyntra.net">
               Game Panel
               <ChevronRight className="w-5 h-5" />
             </GlowingButton>

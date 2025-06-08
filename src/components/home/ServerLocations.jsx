@@ -5,7 +5,7 @@ const LOCATIONS = [
   {
     region: "North America",
     cities: [
-      { name: "New York City, MC", ping: "DDoS Protection Included" },
+      { name: "New York City, USA", ping: "DDoS Protection Included" },
     ],
   },
 ];

@@ -49,7 +49,7 @@ const LegalPage = () => {
       {
         title: "5. Service Availability",
         content:
-          "While we strive for 99.9% uptime, we do not guarantee continuous, uninterrupted access to our services. We reserve the right to suspend services for maintenance or updates.",
+          "While we strive for 99.5% uptime, we do not guarantee continuous, uninterrupted access to our services. We reserve the right to suspend services for maintenance or updates.",
       },
       {
         title: "6. Termination",
@@ -221,7 +221,7 @@ const LegalPage = () => {
                   If you have any questions about our policies, please contact
                   our support team at{" "}
                   <a
-                    href="mailto:legal@infernohost.com"
+                    href="https://discord.gg/WfDE4vEaQS"
                     className="text-red-500 hover:text-red-400 transition-colors duration-300"
                   >
                     https://discord.gg/WfDE4vEaQS

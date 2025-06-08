@@ -18,8 +18,8 @@ import { Helmet } from "react-helmet";
 
 const dataCenters = [
   {
-    location: "Ashburn, USA",
-    provider: "OVH",
+    location: "New York City, USA",
+    provider: "Interserver",
     features: {
       network: "1Gbps/1Gbps Unmetered",
       ddos: "DDoS Protection",

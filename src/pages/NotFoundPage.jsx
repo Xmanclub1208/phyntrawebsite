@@ -43,7 +43,7 @@ const NotFoundPage = () => {
           className="text-gray-400 mb-12 leading-relaxed mx-auto max-w-md
             text-lg opacity-90"
         >
-          The page you're looking for doesn't exist or has been moved. Please
+          The page you're looking for doesn't exist, has been moved, or is still in the works. Please
           check the URL or return to the homepage.
         </p>
         <button
